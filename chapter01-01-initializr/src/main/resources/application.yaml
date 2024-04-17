@@ -1,0 +1,32 @@
+#person:
+#  name: >
+#    这是一个多行字符串的示例，
+#     在这个示例中，
+#    换行符会被替换成空格。
+#    大幅度发的东方饭店
+#  age: 18
+#  birthDay: 2010/10/10 12:12:12
+#  like: true
+#  child:
+#    name: lisi
+#    age: 20
+#    birthDay: 2018/10/10
+#    text: [ "abc","def" ]
+#  dogs:
+#    - name: 小黑
+#      age: 3
+#    - name: 小白
+#      age: 2
+#  cats:
+#    c1:
+#      name: 小蓝
+#      age: 3
+#    c2: { name: 小绿, age: 2 } # 对象也可用{}表示
+
+document1:
+  key1: value1
+  key2: value2
+---
+document2:
+  key3: value3
+  key4: value4
